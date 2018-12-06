@@ -7,7 +7,7 @@
     const employeesList = document.querySelector('.bulleted'),
         employeeTmpl = document.querySelector('#li-tmpl').innerHTML;
 
-    let employeeListHTML;
+    let employeeListHTML="";
 
     xhr.open('GET', "./data/employees.json");
 
