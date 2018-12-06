@@ -9,7 +9,7 @@
 
     let employeeListHTML;
 
-    xhr.open('GET', "data/employees.json");
+    xhr.open('GET', "./data/employees.json");
 
     xhr.send();
 
